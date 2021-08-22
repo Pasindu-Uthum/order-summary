@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e0e8ff;
+}
+
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 150px;
+}
+
+.card {
+  width: 400px;
+  height: 550px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card h2, .description {
+  font-family: 'Red Hat Display', sans-serif;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.description {
+  padding: 10px 10px;
+  opacity: 0.4;
+  font-weight: bolder;
+}
+
+.plan {
+  background-color: #f5f7ff;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plan img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 20px;
+}
+
+.heading {
+  color: #1f2f56;
+  opacity: 1;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bolder;
+}
+
+.price {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bolder;
+  opacity: 0.4;
+}
+
+.plan span {
+  padding-left: 110px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bolder;
+  color: #3829e0;
+}
+
+.card button {
+  padding: 10px;
+  text-align: center;
+  background-color: #3829e0;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Red Hat Display', sans-serif;
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+}
+
+.card a {
+  padding-top: 30px;
+  color: #7280a7;
+  font-weight: bolder;
+  font-family: 'Red Hat Display', sans-serif;
+  display: block;
+  text-decoration: none;
+}
+
+.card a:hover, .card button:hover, .plan span:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
